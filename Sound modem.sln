@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Transmitter", "Transmitter\Transmitter.csproj", "{AD5B23E6-941F-46DD-807F-F66233F3F46D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver", "Receiver\Receiver.csproj", "{A5C2647A-0FFB-4433-A2A4-3BA365CC8711}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD5B23E6-941F-46DD-807F-F66233F3F46D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD5B23E6-941F-46DD-807F-F66233F3F46D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD5B23E6-941F-46DD-807F-F66233F3F46D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD5B23E6-941F-46DD-807F-F66233F3F46D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5C2647A-0FFB-4433-A2A4-3BA365CC8711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5C2647A-0FFB-4433-A2A4-3BA365CC8711}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5C2647A-0FFB-4433-A2A4-3BA365CC8711}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5C2647A-0FFB-4433-A2A4-3BA365CC8711}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

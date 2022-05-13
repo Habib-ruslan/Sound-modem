@@ -1,0 +1,261 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Transmitter/1.0.0": {
+        "dependencies": {
+          "NAudio": "2.1.0-beta.1",
+          "System.Windows.Extensions": "7.0.0-preview.4.22229.4"
+        },
+        "runtime": {
+          "Transmitter.dll": {}
+        }
+      },
+      "Microsoft.NETCore.Platforms/3.1.0": {},
+      "Microsoft.Win32.Registry/4.7.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.7.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        }
+      },
+      "Microsoft.Win32.SystemEvents/7.0.0-preview.4.22229.4": {
+        "runtime": {
+          "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.22904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.22904"
+          }
+        }
+      },
+      "NAudio/2.1.0-beta.1": {
+        "dependencies": {
+          "NAudio.Asio": "2.1.0-beta.1",
+          "NAudio.Core": "2.1.0-beta.1",
+          "NAudio.Midi": "2.1.0-beta.1",
+          "NAudio.Wasapi": "2.1.0-beta.1",
+          "NAudio.WinMM": "2.1.0-beta.1"
+        },
+        "runtime": {
+          "lib/net6.0/NAudio.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "NAudio.Asio/2.1.0-beta.1": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.7.0",
+          "NAudio.Core": "2.1.0-beta.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Asio.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "NAudio.Core/2.1.0-beta.1": {
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Core.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "NAudio.Midi/2.1.0-beta.1": {
+        "dependencies": {
+          "NAudio.Core": "2.1.0-beta.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Midi.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "NAudio.Wasapi/2.1.0-beta.1": {
+        "dependencies": {
+          "NAudio.Core": "2.1.0-beta.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.Wasapi.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "NAudio.WinMM/2.1.0-beta.1": {
+        "dependencies": {
+          "Microsoft.Win32.Registry": "4.7.0",
+          "NAudio.Core": "2.1.0-beta.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/NAudio.WinMM.dll": {
+            "assemblyVersion": "2.1.0.0",
+            "fileVersion": "2.1.0.0"
+          }
+        }
+      },
+      "System.Drawing.Common/7.0.0-preview.4.22229.4": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "7.0.0-preview.4.22229.4"
+        },
+        "runtime": {
+          "lib/net6.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.22904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/net6.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.22904"
+          },
+          "runtimes/win/lib/net6.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.22904"
+          }
+        }
+      },
+      "System.Security.AccessControl/4.7.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.1.0",
+          "System.Security.Principal.Windows": "4.7.0"
+        }
+      },
+      "System.Security.Principal.Windows/4.7.0": {},
+      "System.Windows.Extensions/7.0.0-preview.4.22229.4": {
+        "dependencies": {
+          "System.Drawing.Common": "7.0.0-preview.4.22229.4"
+        },
+        "runtime": {
+          "lib/net6.0/System.Windows.Extensions.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.22904"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net6.0/System.Windows.Extensions.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.0.22.22904"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Transmitter/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.Platforms/3.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z7aeg8oHln2CuNulfhiLYxCVMPEwBl3rzicjvIX+4sUuCwvXw5oXQEtbiU2c0z4qYL5L3Kmx0mMA/+t/SbY67w==",
+      "path": "microsoft.netcore.platforms/3.1.0",
+      "hashPath": "microsoft.netcore.platforms.3.1.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.Registry/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-KSrRMb5vNi0CWSGG1++id2ZOs/1QhRqROt+qgbEAdQuGjGrFcl4AOl4/exGPUYz2wUnU42nvJqon1T3U0kPXLA==",
+      "path": "microsoft.win32.registry/4.7.0",
+      "hashPath": "microsoft.win32.registry.4.7.0.nupkg.sha512"
+    },
+    "Microsoft.Win32.SystemEvents/7.0.0-preview.4.22229.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tNduZUG9jz9LPbqAbLxtP46MdPa/TOekzRi2cXp4ZdA8dFsh0HFFH+qivuE7wiFnylMp2OrvCA1fCRmrmG1Skw==",
+      "path": "microsoft.win32.systemevents/7.0.0-preview.4.22229.4",
+      "hashPath": "microsoft.win32.systemevents.7.0.0-preview.4.22229.4.nupkg.sha512"
+    },
+    "NAudio/2.1.0-beta.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-PwlQs3cIGsv+9H4G0x8ZdCG1bJAK2K5i6vrroDK7i2xUTlwfqYDRVL3k1WlHBdn4JKEjFlQHUv5al5f4I0z8nA==",
+      "path": "naudio/2.1.0-beta.1",
+      "hashPath": "naudio.2.1.0-beta.1.nupkg.sha512"
+    },
+    "NAudio.Asio/2.1.0-beta.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Z9GKxmg5BouVvfIjLz+uLE+GVOWBxWOfb6CmlLqYjlZa+Pb6oQw5PRDCjNfnikId9H2zeziTK0gmgWZorv6rsQ==",
+      "path": "naudio.asio/2.1.0-beta.1",
+      "hashPath": "naudio.asio.2.1.0-beta.1.nupkg.sha512"
+    },
+    "NAudio.Core/2.1.0-beta.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xkxtez5hLBuUTPvvVf6onpXAcbL9g0JoDuqQVWHCEgE61PynZ9TXVEi/5UmwXzuPn5dbNfR+IG1Vx7sj2+Cqqw==",
+      "path": "naudio.core/2.1.0-beta.1",
+      "hashPath": "naudio.core.2.1.0-beta.1.nupkg.sha512"
+    },
+    "NAudio.Midi/2.1.0-beta.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-B4JFMSGevTg0oQe0z9sIkDA0g2RXAMZTZ1Hy5nMMKrC+ID6fhoLz8P3mpzlgyCeUTWgig+rsq42GaUx8q6NTxA==",
+      "path": "naudio.midi/2.1.0-beta.1",
+      "hashPath": "naudio.midi.2.1.0-beta.1.nupkg.sha512"
+    },
+    "NAudio.Wasapi/2.1.0-beta.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WsBUnoHOCnN0+ihgwTPkwuTVxrWFbLzkDqIQ2VertpeJyMYi+cuBXb3OLCOH7e36OdEPavkXo74bG9QU4d4oLw==",
+      "path": "naudio.wasapi/2.1.0-beta.1",
+      "hashPath": "naudio.wasapi.2.1.0-beta.1.nupkg.sha512"
+    },
+    "NAudio.WinMM/2.1.0-beta.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ncYqYnGKAHJq4W0tfmXXv9iZGAADf88zFfiGB+BXlp1k6FMSyQBVDb80rXwoXUvLt1zW81sHDsRiVGFgCVL0cw==",
+      "path": "naudio.winmm/2.1.0-beta.1",
+      "hashPath": "naudio.winmm.2.1.0-beta.1.nupkg.sha512"
+    },
+    "System.Drawing.Common/7.0.0-preview.4.22229.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-dI5YqOCQ8553vJzCmOYs5E2ESCrWguFkQyzgPwYsadstawu+8iq4Z8euGGM1gNLnHrcH4/Z4fuTZmO7H+LexGA==",
+      "path": "system.drawing.common/7.0.0-preview.4.22229.4",
+      "hashPath": "system.drawing.common.7.0.0-preview.4.22229.4.nupkg.sha512"
+    },
+    "System.Security.AccessControl/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JECvTt5aFF3WT3gHpfofL2MNNP6v84sxtXxpqhLBCcDRzqsPBmHhQ6shv4DwwN2tRlzsUxtb3G9M3763rbXKDg==",
+      "path": "system.security.accesscontrol/4.7.0",
+      "hashPath": "system.security.accesscontrol.4.7.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ojD0PX0XhneCsUbAZVKdb7h/70vyYMDYs85lwEI+LngEONe/17A0cFaRFqZU+sOEidcVswYWikYOQ9PPfjlbtQ==",
+      "path": "system.security.principal.windows/4.7.0",
+      "hashPath": "system.security.principal.windows.4.7.0.nupkg.sha512"
+    },
+    "System.Windows.Extensions/7.0.0-preview.4.22229.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-vJSKPr9uu6jbnCUQSbi8SuKpa99sfYeeAFTbx2t5CxcrrHhKIrA0SNPludOtBPXdSaZFpW2vIeZlWgQmQwI8Bw==",
+      "path": "system.windows.extensions/7.0.0-preview.4.22229.4",
+      "hashPath": "system.windows.extensions.7.0.0-preview.4.22229.4.nupkg.sha512"
+    }
+  }
+}
