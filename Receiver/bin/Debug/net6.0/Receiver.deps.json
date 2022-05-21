@@ -8,10 +8,19 @@
     ".NETCoreApp,Version=v6.0": {
       "Receiver/1.0.0": {
         "dependencies": {
+          "CSCore": "1.2.1.2",
           "NAudio": "2.1.0-beta.1"
         },
         "runtime": {
           "Receiver.dll": {}
+        }
+      },
+      "CSCore/1.2.1.2": {
+        "runtime": {
+          "lib/net35-client/CSCore.dll": {
+            "assemblyVersion": "1.2.1.2",
+            "fileVersion": "0.0.0.0"
+          }
         }
       },
       "Microsoft.NETCore.Platforms/3.1.0": {},
@@ -104,6 +113,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "CSCore/1.2.1.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DoQKUcdZLQawo3mOg8CvujJD9YkvTt6NtEu7S+OCo8+ySl8eCeUw4LFyL2E1OcAkPU918HZM6sUNcvIMcXWg6g==",
+      "path": "cscore/1.2.1.2",
+      "hashPath": "cscore.1.2.1.2.nupkg.sha512"
     },
     "Microsoft.NETCore.Platforms/3.1.0": {
       "type": "package",

@@ -20,3 +20,4 @@ E:\Files\Учёба\Проектирование\Sound modem\Receiver\bin\Debug\
 E:\Files\Учёба\Проектирование\Sound modem\Receiver\bin\Debug\net6.0\NAudio.Wasapi.dll
 E:\Files\Учёба\Проектирование\Sound modem\Receiver\bin\Debug\net6.0\NAudio.WinMM.dll
 E:\Files\Учёба\Проектирование\Sound modem\Receiver\obj\Debug\net6.0\Receiver.csproj.CopyComplete
+E:\Files\Учёба\Проектирование\Sound modem\Receiver\bin\Debug\net6.0\CSCore.dll
