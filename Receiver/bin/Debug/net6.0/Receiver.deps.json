@@ -9,7 +9,8 @@
       "Receiver/1.0.0": {
         "dependencies": {
           "CSCore": "1.2.1.2",
-          "NAudio": "2.1.0-beta.1"
+          "NAudio": "2.1.0-beta.1",
+          "NAudio.Core": "2.1.0-beta.1"
         },
         "runtime": {
           "Receiver.dll": {}

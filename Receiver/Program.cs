@@ -4,15 +4,16 @@ public static class Program
 {
     public static void Main()
     {
-        var recorder = new Recorder("test2.wav");
+        var filename = "demo.wav";
+        var receiver = new Receiver(filename);
         Console.WriteLine("Начать запись?");
         Console.Read();
-        recorder.Start();
+        receiver.Start();
+        var data = receiver.GetData();
+        var text = Converter.GetTextFromBytes(data);
+        Console.WriteLine(text);
         Console.WriteLine("Нажмите Enter чтобы остановить запись...");
         Console.ReadKey();
-        recorder.Stop();
-        Converter.ToTxt("test.wav");
-        var result = File.ReadAllText("../../../test.txt");
-        Console.WriteLine(result);
+        receiver.Stop();
     }
 }

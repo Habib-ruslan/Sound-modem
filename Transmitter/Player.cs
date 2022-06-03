@@ -21,4 +21,9 @@ public class Player
         this._player.Play();
         this._player.PlaySync();
     }
+
+    public void Stop()
+    {
+        this._player.Stop();
+    }
 }

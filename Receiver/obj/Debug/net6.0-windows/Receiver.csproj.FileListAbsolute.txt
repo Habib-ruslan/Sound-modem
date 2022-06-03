@@ -1,0 +1,5 @@
+E:\Files\Учёба\Проектирование\Sound modem\Receiver\obj\Debug\net6.0-windows\Receiver.csproj.AssemblyReference.cache
+E:\Files\Учёба\Проектирование\Sound modem\Receiver\obj\Debug\net6.0-windows\Receiver.GeneratedMSBuildEditorConfig.editorconfig
+E:\Files\Учёба\Проектирование\Sound modem\Receiver\obj\Debug\net6.0-windows\Receiver.AssemblyInfoInputs.cache
+E:\Files\Учёба\Проектирование\Sound modem\Receiver\obj\Debug\net6.0-windows\Receiver.AssemblyInfo.cs
+E:\Files\Учёба\Проектирование\Sound modem\Receiver\obj\Debug\net6.0-windows\Receiver.csproj.CoreCompileInputs.cache

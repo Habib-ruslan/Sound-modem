@@ -7,8 +7,10 @@ public static class Program
 {
     public static void Main()
     {
-        Converter.ToWav("test.txt");
         var player = new Player();
-        player.Play("test");
+        var result = Converter.ToBinary("newText.txt");
+        Console.WriteLine("\n" + result.Count);
+        var transmitter = new Transmitter(player, result);
+        transmitter.Start();
     }
 }
